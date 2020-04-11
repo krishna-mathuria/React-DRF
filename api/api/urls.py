@@ -20,5 +20,6 @@ from authapp.views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('checkserver', index, name ='index'),
-    path('auth/', include('authapp.urls'))
+    path('auth/', include('authapp.urls')),
+    path('comments/',include('comments.urls')),
 ]

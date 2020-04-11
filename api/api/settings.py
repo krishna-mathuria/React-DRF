@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'authapp',
     'djoser',
-    'corsheaders',
+    'corsheaders','comments',
 ]
 
 MIDDLEWARE = [
